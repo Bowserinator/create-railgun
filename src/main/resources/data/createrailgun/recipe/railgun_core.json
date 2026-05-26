@@ -1,0 +1,31 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "category": "misc",
+    "key": {
+        "C": {
+            "tag": "c:ingots/copper"
+        },
+        "G": {
+            "item": "createbigcannons:thick_nethersteel_cannon_chamber"
+        },
+        "R": {
+            "item": "create:precision_mechanism"
+        },
+        "r": {
+            "item": "minecraft:redstone_block"
+        },
+        "E": {
+            "item": "create:electron_tube"
+        }
+    },
+    "pattern": [
+        "CC CC",
+        "CCGCC",
+        "rEREr"
+    ],
+    "result": {
+        "count": 1,
+        "id": "createrailgun:railgun_core"
+    }
+}

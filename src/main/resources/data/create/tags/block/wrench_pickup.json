@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "createrailgun:railgun_rail",
+        "createrailgun:railgun_core"
+    ]
+}

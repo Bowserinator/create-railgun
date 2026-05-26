@@ -1,0 +1,14 @@
+{
+    "low_power": {
+        "subtitle": "createrailgun.subtitle.low_power",
+        "sounds": [
+            "createrailgun:block/low_power"
+        ]
+    },
+    "railgun_charge": {
+        "subtitle": "createrailgun.subtitle.railgun_charge",
+        "sounds": [
+            "createrailgun:block/railgun_charge"
+        ]
+    }
+}

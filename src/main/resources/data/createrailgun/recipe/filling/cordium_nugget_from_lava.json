@@ -1,0 +1,18 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "minecraft:spruce_trapdoor"
+        },
+        {
+            "type": "neoforge:single",
+            "fluid": "minecraft:lava",
+            "amount": 500
+        }
+    ],
+    "results": [
+        {
+            "id": "minecraft:iron_nugget"
+        }
+    ]
+}

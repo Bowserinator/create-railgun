@@ -1,0 +1,19 @@
+{
+  "itemGroup.createrailgun": "Create: Railgun",
+
+  "entity.createrailgun.railgun_projectile": "Railgun Slug",
+  "entity.createrailgun.burst_shell": "Burst Railgun Shell",
+
+  "block.createrailgun.burst_shell": "Burst Railgun Shell",
+  "block.createrailgun.railgun_core": "Railgun Core",
+  "block.createrailgun.railgun_rail": "Railgun Rail",
+
+  "createrailgun.subtitle.low_power": "Railgun low power",
+  "createrailgun.subtitle.railgun_charge": "Railgun charging",
+
+  "createrailgun.configuration.title": "Create: Railgun Configs",
+  "createrailgun.configuration.explosionPower": "Slug explosion power",
+  "createrailgun.configuration.powerBufferRequired": "Power required to fire",
+  "createrailgun.configuration.cooldownTicks": "Cooldown time (ticks)",
+  "createrailgun.configuration.chargeTimeTicks": "Charge before firing (ticks)"
+}

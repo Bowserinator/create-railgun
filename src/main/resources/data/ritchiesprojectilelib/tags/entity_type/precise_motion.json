@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "createrailgun:burst_shell",
+        "createrailgun:railgun_projectile"
+    ]
+}
