@@ -2,47 +2,55 @@
   "variants": {
     "facing=down,triggered=false": {
       "model": "createrailgun:block/railgun_core",
-      "x": 90
+      "x": 180
     },
     "facing=down,triggered=true": {
       "model": "createrailgun:block/railgun_core",
-      "x": 90
+      "x": 180
     },
     "facing=east,triggered=false": {
-      "model": "createrailgun:block/railgun_core"
+      "model": "createrailgun:block/railgun_core",
+      "x": 90,
+      "y": 90
     },
     "facing=east,triggered=true": {
-      "model": "createrailgun:block/railgun_core"
+      "model": "createrailgun:block/railgun_core",
+      "x": 90,
+      "y": 90
     },
     "facing=north,triggered=false": {
       "model": "createrailgun:block/railgun_core",
-      "y": 90
+      "x": 90
     },
     "facing=north,triggered=true": {
       "model": "createrailgun:block/railgun_core",
-      "y": 90
+      "x": 90
     },
     "facing=south,triggered=false": {
       "model": "createrailgun:block/railgun_core",
-      "y": 90
+      "x": 90,
+      "y": 180
     },
     "facing=south,triggered=true": {
       "model": "createrailgun:block/railgun_core",
-      "y": 90
+      "x": 90,
+      "y": 180
     },
     "facing=up,triggered=false": {
-      "model": "createrailgun:block/railgun_core",
-      "x": 90
+      "model": "createrailgun:block/railgun_core"
     },
     "facing=up,triggered=true": {
-      "model": "createrailgun:block/railgun_core",
-      "x": 90
+      "model": "createrailgun:block/railgun_core"
     },
     "facing=west,triggered=false": {
-      "model": "createrailgun:block/railgun_core"
+      "model": "createrailgun:block/railgun_core",
+      "x": 90,
+      "y": 270
     },
     "facing=west,triggered=true": {
-      "model": "createrailgun:block/railgun_core"
+      "model": "createrailgun:block/railgun_core",
+      "x": 90,
+      "y": 270
     }
   }
 }

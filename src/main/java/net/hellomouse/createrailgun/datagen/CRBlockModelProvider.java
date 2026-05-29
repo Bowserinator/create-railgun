@@ -39,19 +39,7 @@ public class CRBlockModelProvider extends BlockStateProvider {
         });
         simpleBlockItem(CRBlocks.RAILGUN_RAIL.get(), railModel);
 
-        getVariantBuilder(CRBlocks.RAILGUN_CORE.get()).forAllStates(state -> {
-            Direction facing = state.getValue(RailgunRailBlock.FACING);
-            int yRot = 0;
-            int xRot = 0;
-
-            switch (facing) {
-                case NORTH, SOUTH -> {yRot = 90;}
-                case UP, DOWN -> {xRot = 90;}
-            }
-            return ConfiguredModel.builder()
-                    .modelFile(railCoreModel)
-                    .rotationX(xRot).rotationY(yRot).build();
-        });
+        directionalBlock(CRBlocks.RAILGUN_CORE.get(), railCoreModel);
         simpleBlockItem(CRBlocks.RAILGUN_CORE.get(), railCoreModel);
     }
 }
