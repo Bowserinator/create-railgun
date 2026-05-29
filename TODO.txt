@@ -1,36 +1,5 @@
 future:
 make railgun a cannon mount too
-
-
-- crafting recipes
-    - netherite filter
-        - hmm filling doesnt support multiple :riifuded:
-        maybe filter -> dirty filter
-        -> wash to get back the filter + cordium crystals
-
-     or cordium catalsyt + lava => thing
-
-    - cordium crystal -> compact
-    - cordium block
-        - explodes like he shell
-
-    - shell crafting recipes
-        - same as he shell but with cordium crystals
-        - or maybe block but u get 2? because it fires 5 bursts
-
-advancements
-- get cordium
-- craft railgun projectile
-- fire a railgun
-
-- models
-- ponder
-    - railgun
-    - railgun contrapation
-
-
-- reformat all code
-
-test on dedicated server
-
-zh translation
+cordium blocks explode like regular tnt when falling
+cordium thrusters
+cordium power generators + engines

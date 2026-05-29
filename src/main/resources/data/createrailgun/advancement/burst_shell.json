@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "createrailgun:burst_shell"
+        },
+        "title": {
+            "translate": "advancements.createrailgun.burst_shell.title"
+        },
+        "description": {
+            "translate": "advancements.createrailgun.burst_shell.desc"
+        },
+        "frame": "task",
+        "announce_to_chat": true
+    },
+    "parent": "createrailgun:root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "createrailgun:burst_shell"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

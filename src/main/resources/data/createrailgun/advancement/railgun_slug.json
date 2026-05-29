@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "createrailgun:railgun_slug"
+        },
+        "title": {
+            "translate": "advancements.createrailgun.railgun_slug.title"
+        },
+        "description": {
+            "translate": "advancements.createrailgun.railgun_slug.desc"
+        },
+        "frame": "task",
+        "announce_to_chat": true
+    },
+    "parent": "createrailgun:root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "createrailgun:railgun_slug"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

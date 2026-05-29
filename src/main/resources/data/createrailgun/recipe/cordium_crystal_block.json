@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "createrailgun:cordium_crystal"
+        }
+    },
+    "result": {
+        "id": "createrailgun:cordium_crystal_block"
+    }
+}

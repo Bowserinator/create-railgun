@@ -1,0 +1,45 @@
+{
+    "itemGroup.createrailgun": "創造：電磁軌道砲",
+
+    "entity.createrailgun.railgun_projectile": "電磁軌道砲彈",
+    "entity.createrailgun.burst_shell": "爆裂電磁砲彈",
+
+    "block.createrailgun.burst_shell": "爆裂電磁砲彈",
+    "block.createrailgun.railgun_core": "電磁砲核心",
+    "block.createrailgun.railgun_rail": "電磁砲軌道",
+    "block.createrailgun.cordium_crystal_block": "碳鈾塊",
+
+    "createrailgun.ponder.railgun_intro_1.header": "電磁砲組裝",
+    "createrailgun.ponder.railgun_intro_1.text_1": "在開口處放置電磁砲核心與軌道",
+    "createrailgun.ponder.railgun_intro_2.header": "電磁砲發射",
+    "createrailgun.ponder.railgun_intro_2.text_1": "將電磁砲彈裝入核心",
+    "createrailgun.ponder.railgun_intro_2.text_2": "需向核心供電（圖中未顯示）",
+    "createrailgun.ponder.railgun_intro_2.text_3": "以紅石訊號啟動發射",
+
+    "advancements.createrailgun.burst_shell.title": "深紅一號認可",
+    "advancements.createrailgun.burst_shell.desc": "獲得爆裂電磁砲彈",
+    "advancements.createrailgun.railgun_slug.title": "看，這真的不是雷射！",
+    "advancements.createrailgun.railgun_slug.desc": "獲得電磁砲彈",
+    "advancements.createrailgun.root.title": "創造：電磁軌道砲",
+    "advancements.createrailgun.root.desc": "獲得碳鈾（小心爆炸！）",
+    "advancements.createrailgun.fire_railgun.title": "放行，「僚機計畫」",
+    "advancements.createrailgun.fire_railgun.desc": "發射一次電磁軌道砲",
+
+    "item.createrailgun.magma_slag": "岩漿礦渣",
+    "item.createrailgun.filtered_magma_slag": "淨化礦渣",
+    "item.createrailgun.netherite_filter": "下界合金篩網",
+    "item.createrailgun.cordium_crystal": "碳鈾",
+    "item.createrailgun.railgun_slug": "電磁砲彈",
+
+    "createrailgun.subtitle.low_power": "電磁砲電力不足",
+    "createrailgun.subtitle.railgun_charge": "電磁砲充能中",
+
+    "createrailgun.configuration.title": "創造：電磁軌道砲設定",
+    "createrailgun.configuration.explosionPower": "彈藥爆炸威力",
+    "createrailgun.configuration.powerBufferRequired": "發射所需能量",
+    "createrailgun.configuration.cooldownTicks": "冷卻時間（刻）",
+    "createrailgun.configuration.chargeTimeTicks": "發射前充能時間（刻）",
+
+    "tooltip.createrailgun.muzzle_velocity": "槍口初速：",
+    "tooltip.createrailgun.ammo": "彈藥："
+}

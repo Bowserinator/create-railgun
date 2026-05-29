@@ -27,7 +27,7 @@ public class RailgunSlugEntity extends ThrowableProjectile {
     private static final EntityDataAccessor<Integer> DATA_LIFE = SynchedEntityData.defineId(RailgunSlugEntity.class, EntityDataSerializers.INT);
 
     private static final double DAMAGE = 40.0;
-    private static final int DEFAULT_LIFE = 100;
+    private static final int DEFAULT_LIFE = 130;
     private float explosionPower = Config.EXPLOSION_POWER.get();
     private int life = DEFAULT_LIFE;
 
@@ -62,7 +62,7 @@ public class RailgunSlugEntity extends ThrowableProjectile {
 
         boolean isClient = this.level().isClientSide;
         if (isClient && (this.tickCount == 1 || this.life % 4 == 0)) // Add in case client only sees it later
-            TrailManager.addTrail(new Trail(this.getId(), this.position().subtract(this.getDeltaMovement())));
+            TrailManager.addTrail(new Trail(this.getId(), this.position().subtract(this.getDeltaMovement().scale(2))));
 
         if (!isClient) {
             if (this.life > 0) {

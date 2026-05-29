@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#.#",
+        "#x#"
+    ],
+    "key": {
+        "#": {
+            "tag": "c:ingots/iron"
+        },
+        ".": {
+            "item": "createrailgun:cordium_crystal_block"
+        },
+        "x": {
+            "item": "createbigcannons:packed_guncotton"
+        }
+    },
+    "result": {
+        "id": "createrailgun:burst_shell"
+    }
+}

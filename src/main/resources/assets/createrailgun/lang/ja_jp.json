@@ -1,0 +1,45 @@
+{
+    "itemGroup.createrailgun": "Create: レールガン",
+
+    "entity.createrailgun.railgun_projectile": "レールガン弾",
+    "entity.createrailgun.burst_shell": "バーストレールガン弾",
+
+    "block.createrailgun.burst_shell": "バーストレールガン弾",
+    "block.createrailgun.railgun_core": "レールガンコア",
+    "block.createrailgun.railgun_rail": "レールガンレール",
+    "block.createrailgun.cordium_crystal_block": "コルディウムブロック",
+
+    "createrailgun.ponder.railgun_intro_1.header": "レールガンの組み立て",
+    "createrailgun.ponder.railgun_intro_1.text_1": "開放端にレールガンコアとレールを設置します",
+    "createrailgun.ponder.railgun_intro_2.header": "レールガンの発射",
+    "createrailgun.ponder.railgun_intro_2.text_1": "コアにレールガン弾を装填します",
+    "createrailgun.ponder.railgun_intro_2.text_2": "コアに動力（Forge Energy）を供給する必要があります",
+    "createrailgun.ponder.railgun_intro_2.text_3": "レッドストーン信号を送ると発射されます",
+
+    "advancements.createrailgun.burst_shell.title": "クリムゾン1の承認",
+    "advancements.createrailgun.burst_shell.desc": "バーストレールガン弾を入手する",
+    "advancements.createrailgun.railgun_slug.title": "見て、レーザーじゃないから！",
+    "advancements.createrailgun.railgun_slug.desc": "レールガン弾を入手する",
+    "advancements.createrailgun.root.title": "Create: レールガン",
+    "advancements.createrailgun.root.desc": "コルディウムを入手する（爆発注意！）",
+    "advancements.createrailgun.fire_railgun.title": "プロジェクト・ウィングマン、発進",
+    "advancements.createrailgun.fire_railgun.desc": "レールガンを発射する",
+
+    "item.createrailgun.magma_slag": "マグマスラグ",
+    "item.createrailgun.filtered_magma_slag": "精製マグマスラグ",
+    "item.createrailgun.netherite_filter": "ネザライトのふるい",
+    "item.createrailgun.cordium_crystal": "コルディウムクリスタル",
+    "item.createrailgun.railgun_slug": "レールガン弾",
+
+    "createrailgun.subtitle.low_power": "レールガンの電力が不足しています",
+    "createrailgun.subtitle.railgun_charge": "レールガン充填中",
+
+    "createrailgun.configuration.title": "Create: レールガン設定",
+    "createrailgun.configuration.explosionPower": "弾丸の爆発威力",
+    "createrailgun.configuration.powerBufferRequired": "発射に必要な電力",
+    "createrailgun.configuration.cooldownTicks": "クールダウン時間 (ticks)",
+    "createrailgun.configuration.chargeTimeTicks": "発射前の充填時間 (ticks)",
+
+    "tooltip.createrailgun.muzzle_velocity": "砲口初速:",
+    "tooltip.createrailgun.ammo": "弾薬:"
+}

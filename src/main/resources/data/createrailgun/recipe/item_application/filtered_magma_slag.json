@@ -1,0 +1,16 @@
+{
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "item": "createrailgun:magma_slag"
+        },
+        {
+            "item": "createrailgun:netherite_filter"
+        }
+    ],
+    "results": [
+        {
+            "id": "createrailgun:filtered_magma_slag"
+        }
+    ]
+}

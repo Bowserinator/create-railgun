@@ -149,7 +149,7 @@ dependencies {
     implementation("maven.modrinth:rpl:${rpl_version}") { transitive = false }
     runtimeOnly("curse.maven:create-big-cannons-646668:8002961") { transitive = false }
     runtimeOnly("maven.modrinth:rpl:${rpl_version}") { transitive = false }
-    runtimeOnly("curse.maven:createaddition-439890:8083378");
+    runtimeOnly("curse.maven:createaddition-439890:8083378")
 
     // Development QOL
     localRuntime("mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}") { transitive = false }

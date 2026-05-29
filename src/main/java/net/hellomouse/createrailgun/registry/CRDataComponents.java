@@ -12,8 +12,6 @@ public class CRDataComponents {
     public static final DeferredHolder<DataComponentType<?>, DataComponentType<ItemContainerContents>> LOADED_SHELLS;
 
     static {
-        LOADED_SHELLS = DATA_COMPONENTS.register("loaded_shells", () -> {
-            return DataComponentType.<ItemContainerContents>builder().persistent(ItemContainerContents.CODEC).networkSynchronized(ItemContainerContents.STREAM_CODEC).build();
-        });
+        LOADED_SHELLS = DATA_COMPONENTS.register("loaded_shells", () -> DataComponentType.<ItemContainerContents>builder().persistent(ItemContainerContents.CODEC).networkSynchronized(ItemContainerContents.STREAM_CODEC).build());
     }
 }

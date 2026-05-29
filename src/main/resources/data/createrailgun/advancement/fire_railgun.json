@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "createrailgun:railgun_rail"
+        },
+        "title": {
+            "translate": "advancements.createrailgun.fire_railgun.title"
+        },
+        "description": {
+            "translate": "advancements.createrailgun.fire_railgun.desc"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "createrailgun:railgun_slug",
+    "criteria": {
+        "fire_railgun": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

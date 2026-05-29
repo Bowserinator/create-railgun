@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
         "createrailgun:railgun_rail",
-        "createrailgun:railgun_core"
+        "createrailgun:railgun_core",
+        "createrailgun:cordium_crystal_block"
     ]
 }

@@ -2,6 +2,7 @@ package net.hellomouse.createrailgun.registry;
 
 import net.hellomouse.createrailgun.CreateRailgun;
 import net.hellomouse.createrailgun.block.BurstShellBlock;
+import net.hellomouse.createrailgun.block.CordiumCrystalBlock;
 import net.hellomouse.createrailgun.block.RailgunCoreBlock;
 import net.hellomouse.createrailgun.block.RailgunRailBlock;
 import net.minecraft.world.level.block.Block;
@@ -22,6 +23,7 @@ public class CRBlocks {
             .isRedstoneConductor((state, level, pos) -> false);
     public static final DeferredBlock<RailgunCoreBlock> RAILGUN_CORE = BLOCKS.register("railgun_core", () -> new RailgunCoreBlock(RAILGUN_PROPS));
     public static final DeferredBlock<RailgunRailBlock> RAILGUN_RAIL = BLOCKS.register("railgun_rail", () -> new RailgunRailBlock(RAILGUN_PROPS));
+    public static final DeferredBlock<Block> CORDIUM_CRYSTAL_BLOCK = BLOCKS.register("cordium_crystal_block", () -> new CordiumCrystalBlock(BlockBehaviour.Properties.of()));
 
     public static BlockBehaviour.Properties shellProps() {
         return BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).strength(2.0F, 3.0F)

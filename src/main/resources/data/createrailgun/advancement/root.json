@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "createrailgun:cordium_crystal"
+        },
+        "title": {
+            "translate": "advancements.createrailgun.root.title"
+        },
+        "description": {
+            "translate": "advancements.createrailgun.root.desc"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "background": "minecraft:textures/block/netherite_block.png"
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "createrailgun:cordium_crystal"
+                    }
+                ]
+            }
+        }
+    }
+}

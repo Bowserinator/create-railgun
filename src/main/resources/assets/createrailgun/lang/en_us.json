@@ -7,6 +7,29 @@
   "block.createrailgun.burst_shell": "Burst Railgun Shell",
   "block.createrailgun.railgun_core": "Railgun Core",
   "block.createrailgun.railgun_rail": "Railgun Rail",
+  "block.createrailgun.cordium_crystal_block": "Block of Cordium",
+
+  "createrailgun.ponder.railgun_intro_1.header": "Assembling the Railgun",
+  "createrailgun.ponder.railgun_intro_1.text_1": "Place a railgun core and rails on the open end",
+  "createrailgun.ponder.railgun_intro_2.header": "Firing the Railgun",
+  "createrailgun.ponder.railgun_intro_2.text_1": "Load railgun slugs into the core",
+  "createrailgun.ponder.railgun_intro_2.text_2": "Forge energy (not shown) needs to be supplied to the core",
+  "createrailgun.ponder.railgun_intro_2.text_3": "Fire with a redstone signal",
+
+  "advancements.createrailgun.burst_shell.title": "Crimson One Approved",
+  "advancements.createrailgun.burst_shell.desc": "Obtain the burst railgun shell",
+  "advancements.createrailgun.railgun_slug.title": "See, it's not a Laser!",
+  "advancements.createrailgun.railgun_slug.desc": "Obtain the railgun slug",
+  "advancements.createrailgun.root.title": "Create: Railgun",
+  "advancements.createrailgun.root.desc": "Obtain cordium (explosive!)",
+  "advancements.createrailgun.fire_railgun.title": "Project Wingman is Away",
+  "advancements.createrailgun.fire_railgun.desc": "Fire a railgun",
+
+  "item.createrailgun.magma_slag": "Magma Slag",
+  "item.createrailgun.filtered_magma_slag": "Filtered Magma Slag",
+  "item.createrailgun.netherite_filter": "Netherite Sieve",
+  "item.createrailgun.cordium_crystal": "Cordium Crystal",
+  "item.createrailgun.railgun_slug": "Railgun Slug",
 
   "createrailgun.subtitle.low_power": "Railgun low power",
   "createrailgun.subtitle.railgun_charge": "Railgun charging",
@@ -15,5 +38,8 @@
   "createrailgun.configuration.explosionPower": "Slug explosion power",
   "createrailgun.configuration.powerBufferRequired": "Power required to fire",
   "createrailgun.configuration.cooldownTicks": "Cooldown time (ticks)",
-  "createrailgun.configuration.chargeTimeTicks": "Charge before firing (ticks)"
+  "createrailgun.configuration.chargeTimeTicks": "Charge before firing (ticks)",
+
+  "tooltip.createrailgun.muzzle_velocity": "Muzzle Velocity:",
+  "tooltip.createrailgun.ammo": "Ammo:"
 }

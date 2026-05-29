@@ -3,7 +3,7 @@
     "values": [
         "createrailgun:railgun_rail",
         "createrailgun:railgun_core",
-        "createrailgun:burst_shell"
-
+        "createrailgun:burst_shell",
+        "createrailgun:cordium_crystal_block"
     ]
 }

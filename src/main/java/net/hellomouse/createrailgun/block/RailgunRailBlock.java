@@ -17,7 +17,7 @@ public class RailgunRailBlock extends Block {
     public static final DirectionProperty FACING = BlockStateProperties.FACING;
 
     public RailgunRailBlock(Properties properties) {
-        super(properties.lightLevel(state -> state.getValue(BRIGHTNESS) * 4));
+        super(properties.noOcclusion().lightLevel(state -> state.getValue(BRIGHTNESS) * 4));
         this.registerDefaultState(this.stateDefinition.any().setValue(BRIGHTNESS, 0).setValue(FACING, Direction.NORTH));
     }
 

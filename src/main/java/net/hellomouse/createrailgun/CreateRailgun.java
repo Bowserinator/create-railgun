@@ -29,9 +29,14 @@ public class CreateRailgun {
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MOD_TAB = CREATIVE_MODE_TABS.register("createrailgun_tab", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.createrailgun"))
-            .withTabsBefore(CreativeModeTabs.COMBAT)
-            .icon(() -> CRItems.BURST_SHELL.get().getDefaultInstance())
+            .icon(() -> CRItems.RAILGUN_RAIL.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
+                output.accept(CRItems.MAGMA_SLAG.get());
+                output.accept(CRItems.NETHERITE_FILTER.get());
+                output.accept(CRItems.FILTERED_MAGMA_SLAG.get());
+                output.accept(CRItems.CORDIUM_CRYSTAL.get());
+                output.accept(CRItems.CORDIUM_CRYSTAL_BLOCK.get());
+                output.accept(CRItems.RAILGUN_SLUG.get());
                 output.accept(CRItems.BURST_SHELL.get());
                 output.accept(CRItems.RAILGUN_RAIL.get());
                 output.accept(CRItems.RAILGUN_CORE.get());

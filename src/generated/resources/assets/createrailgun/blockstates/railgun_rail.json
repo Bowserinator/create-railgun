@@ -1,0 +1,100 @@
+{
+  "variants": {
+    "brightness=0,facing=down": {
+      "model": "createrailgun:block/railgun_rail",
+      "x": 90,
+      "y": 90
+    },
+    "brightness=0,facing=east": {
+      "model": "createrailgun:block/railgun_rail",
+      "y": 90
+    },
+    "brightness=0,facing=north": {
+      "model": "createrailgun:block/railgun_rail"
+    },
+    "brightness=0,facing=south": {
+      "model": "createrailgun:block/railgun_rail"
+    },
+    "brightness=0,facing=up": {
+      "model": "createrailgun:block/railgun_rail",
+      "x": 90,
+      "y": 90
+    },
+    "brightness=0,facing=west": {
+      "model": "createrailgun:block/railgun_rail",
+      "y": 90
+    },
+    "brightness=1,facing=down": {
+      "model": "createrailgun:block/railgun_rail_hot",
+      "x": 90,
+      "y": 90
+    },
+    "brightness=1,facing=east": {
+      "model": "createrailgun:block/railgun_rail_hot",
+      "y": 90
+    },
+    "brightness=1,facing=north": {
+      "model": "createrailgun:block/railgun_rail_hot"
+    },
+    "brightness=1,facing=south": {
+      "model": "createrailgun:block/railgun_rail_hot"
+    },
+    "brightness=1,facing=up": {
+      "model": "createrailgun:block/railgun_rail_hot",
+      "x": 90,
+      "y": 90
+    },
+    "brightness=1,facing=west": {
+      "model": "createrailgun:block/railgun_rail_hot",
+      "y": 90
+    },
+    "brightness=2,facing=down": {
+      "model": "createrailgun:block/railgun_rail_hot",
+      "x": 90,
+      "y": 90
+    },
+    "brightness=2,facing=east": {
+      "model": "createrailgun:block/railgun_rail_hot",
+      "y": 90
+    },
+    "brightness=2,facing=north": {
+      "model": "createrailgun:block/railgun_rail_hot"
+    },
+    "brightness=2,facing=south": {
+      "model": "createrailgun:block/railgun_rail_hot"
+    },
+    "brightness=2,facing=up": {
+      "model": "createrailgun:block/railgun_rail_hot",
+      "x": 90,
+      "y": 90
+    },
+    "brightness=2,facing=west": {
+      "model": "createrailgun:block/railgun_rail_hot",
+      "y": 90
+    },
+    "brightness=3,facing=down": {
+      "model": "createrailgun:block/railgun_rail_hot",
+      "x": 90,
+      "y": 90
+    },
+    "brightness=3,facing=east": {
+      "model": "createrailgun:block/railgun_rail_hot",
+      "y": 90
+    },
+    "brightness=3,facing=north": {
+      "model": "createrailgun:block/railgun_rail_hot"
+    },
+    "brightness=3,facing=south": {
+      "model": "createrailgun:block/railgun_rail_hot"
+    },
+    "brightness=3,facing=up": {
+      "model": "createrailgun:block/railgun_rail_hot",
+      "x": 90,
+      "y": 90
+    },
+    "brightness=3,facing=west": {
+      "model": "createrailgun:block/railgun_rail_hot",
+      "y": 90
+    }
+  }
+}

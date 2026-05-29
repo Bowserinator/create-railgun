@@ -1,0 +1,45 @@
+{
+    "itemGroup.createrailgun": "机械动力：电磁炮",
+
+    "entity.createrailgun.railgun_projectile": "电磁炮弹丸",
+    "entity.createrailgun.burst_shell": "爆裂电磁炮弹",
+
+    "block.createrailgun.burst_shell": "爆裂电磁炮弹",
+    "block.createrailgun.railgun_core": "电磁炮核心",
+    "block.createrailgun.railgun_rail": "电磁炮轨道",
+    "block.createrailgun.cordium_crystal_block": "碳铀块",
+
+    "createrailgun.ponder.railgun_intro_1.header": "组装电磁炮",
+    "createrailgun.ponder.railgun_intro_1.text_1": "在开口端放置电磁炮核心与轨道",
+    "createrailgun.ponder.railgun_intro_2.header": "发射电磁炮",
+    "createrailgun.ponder.railgun_intro_2.text_1": "向核心装入电磁炮弹丸",
+    "createrailgun.ponder.railgun_intro_2.text_2": "需要向核心供应能量（图中未展示）",
+    "createrailgun.ponder.railgun_intro_2.text_3": "使用红石信号发射",
+
+    "advancements.createrailgun.burst_shell.title": "深红一号认可",
+    "advancements.createrailgun.burst_shell.desc": "获得爆裂电磁炮弹",
+    "advancements.createrailgun.railgun_slug.title": "看，这真的不是激光",
+    "advancements.createrailgun.railgun_slug.desc": "获得电磁炮弹丸",
+    "advancements.createrailgun.root.title": "机械动力：电磁炮",
+    "advancements.createrailgun.root.desc": "获得碳铀（小心爆炸！）",
+    "advancements.createrailgun.fire_railgun.title": "放行，“僚机计划”",
+    "advancements.createrailgun.fire_railgun.desc": "发射一次电磁炮",
+
+    "item.createrailgun.magma_slag": "岩浆矿渣",
+    "item.createrailgun.filtered_magma_slag": "过滤的岩浆矿渣",
+    "item.createrailgun.netherite_filter": "下界合金筛网",
+    "item.createrailgun.cordium_crystal": "碳铀",
+    "item.createrailgun.railgun_slug": "电磁炮弹丸",
+
+    "createrailgun.subtitle.low_power": "电磁炮能量不足",
+    "createrailgun.subtitle.railgun_charge": "电磁炮充能中",
+
+    "createrailgun.configuration.title": "机械动力：电磁炮配置",
+    "createrailgun.configuration.explosionPower": "弹丸爆炸威力",
+    "createrailgun.configuration.powerBufferRequired": "发射所需能量",
+    "createrailgun.configuration.cooldownTicks": "冷却时间（刻）",
+    "createrailgun.configuration.chargeTimeTicks": "发射前充能时间（刻）",
+
+    "tooltip.createrailgun.muzzle_velocity": "炮口初速：",
+    "tooltip.createrailgun.ammo": "弹药："
+}

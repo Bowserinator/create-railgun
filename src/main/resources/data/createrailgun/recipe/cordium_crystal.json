@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "createrailgun:cordium_crystal_block"
+        }
+    ],
+    "result": {
+        "id": "createrailgun:cordium_crystal",
+        "count": 9
+    }
+}
