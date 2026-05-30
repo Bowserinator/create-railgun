@@ -55,7 +55,7 @@ public class CreateRailgun {
 
         modEventBus.addListener(this::onCommonSetup);
         modEventBus.addListener(this::registerCapabilities);
-        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+        modContainer.registerConfig(ModConfig.Type.SERVER, Config.SPEC);
     }
 
     private void onCommonSetup(FMLCommonSetupEvent event) {

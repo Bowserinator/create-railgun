@@ -41,7 +41,7 @@ public class TrailManager {
 
     @SubscribeEvent
     public static void onRenderWorld(RenderLevelStageEvent event) {
-        if (event.getStage() != RenderLevelStageEvent.Stage.AFTER_TRANSLUCENT_BLOCKS) return;
+        if (event.getStage() != RenderLevelStageEvent.Stage.AFTER_PARTICLES) return;
         trails.removeIf(Trail::isDead);
         if (trails.isEmpty()) return;
 
