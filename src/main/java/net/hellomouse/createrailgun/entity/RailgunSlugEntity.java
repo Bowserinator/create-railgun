@@ -114,6 +114,7 @@ public class RailgunSlugEntity extends ThrowableProjectile {
                 this.getX(), this.getY(), this.getZ(), this.explosionPower,
                 false, Explosion.BlockInteraction.DESTROY, false);
         CreateBigCannons.handleCustomExplosion(this.level(), explosion);
+        TrailManager.markTrailExploded(this.getId());
         this.discard();
     }
 

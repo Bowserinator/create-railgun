@@ -27,6 +27,12 @@ public class TrailManager {
             trails.add(trail);
     }
 
+    public static void markTrailExploded(int id) {
+        for (Trail trail : trails)
+            if (trail.getId() == id)
+                trail.markExploded();
+    }
+
     @SubscribeEvent
     public static void onClientTick(ClientTickEvent.Post event) {
         if (Minecraft.getInstance().level == null) {
