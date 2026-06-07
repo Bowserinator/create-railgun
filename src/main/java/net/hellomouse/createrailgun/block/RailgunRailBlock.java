@@ -1,5 +1,6 @@
 package net.hellomouse.createrailgun.block;
 
+import net.hellomouse.createrailgun.Config;
 import net.hellomouse.createrailgun.block.be.RailgunCoreBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -49,7 +50,7 @@ public class RailgunRailBlock extends Block {
         if (level.isClientSide) return;
 
         Direction facing = state.getValue(FACING);
-        for (int i = 1; i <= RailgunCoreBlockEntity.MAX_RAILS + 1; i++) {
+        for (int i = 1; i <= Config.MAX_RAILS.getAsInt() + 1; i++) {
             BlockPos checkPos = pos.relative(facing.getOpposite(), i);
             if (level.getBlockEntity(checkPos) instanceof RailgunCoreBlockEntity core) {
                 core.updateMultiblock();

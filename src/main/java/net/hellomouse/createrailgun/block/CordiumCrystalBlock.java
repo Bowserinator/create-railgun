@@ -72,8 +72,7 @@ public class CordiumCrystalBlock extends TntBlock {
         level.removeBlock(pos, false);
         ShellExplosion explosion = new ShellExplosion(level, null,
                 new CannonDamageSource(CannonDamageSource.getDamageRegistry(level).getHolderOrThrow(CBCDamageTypes.SHRAPNEL), false),
-                pos.getX(), pos.getY(), pos.getZ(), 7,
-                false, Explosion.BlockInteraction.DESTROY, false);
+                pos.getX(), pos.getY(), pos.getZ(), 7, 7, false, Explosion.BlockInteraction.DESTROY);
         CreateBigCannons.handleCustomExplosion(level, explosion);
     }
 

@@ -3,6 +3,7 @@ package net.hellomouse.createrailgun.client;
 import com.mojang.blaze3d.platform.GlStateManager;
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.*;
+import net.hellomouse.createrailgun.Config;
 import net.hellomouse.createrailgun.CreateRailgun;
 import net.minecraft.client.Camera;
 import net.minecraft.client.Minecraft;
@@ -97,8 +98,9 @@ public class TrailManager {
             // Bloom halo
             float haloThickness = 0.4f;
             int hR = 255, hG = 90, hB = 0;
-            int hStartAlpha = (int)(80 * startRatio);
-            int hEndAlpha = (int)(150 * lifeRatio);
+            double trailOpacity = Config.TRAIL_OPACITY.getAsDouble() * 255;
+            int hStartAlpha = (int)(trailOpacity * 0.53333333333 * startRatio);
+            int hEndAlpha = (int)(trailOpacity * lifeRatio);
 
             Vec3 hRight = rightDir.scale(haloThickness);
             Vec3 h1 = start.subtract(hRight), h2 = start.add(hRight);

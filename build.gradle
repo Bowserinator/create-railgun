@@ -136,6 +136,12 @@ configurations {
     runtimeClasspath.extendsFrom localRuntime
 }
 
+repositories {
+    flatDir {
+        dir 'libs'
+    }
+}
+
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
 
@@ -145,9 +151,11 @@ dependencies {
     runtimeOnly("dev.engine-room.flywheel:flywheel-neoforge-${minecraft_version}:${flywheel_neoforge_version}")
     implementation("com.tterrag.registrate:Registrate:${registrate_neoforge_version}")
     //CBC
-    implementation "curse.maven:create-big-cannons-646668:8002961"
+    // implementation "curse.maven:create-big-cannons-646668:8208458"
+    implementation "blank:createbigcannons:5.11.6+mc.1.21.1"
     implementation("maven.modrinth:rpl:${rpl_version}") { transitive = false }
-    runtimeOnly("curse.maven:create-big-cannons-646668:8002961") { transitive = false }
+    runtimeOnly("blank:createbigcannons:5.11.6+mc.1.21.1") { transitive = false }
+    // runtimeOnly("curse.maven:create-big-cannons-646668:8208458") { transitive = false }
     runtimeOnly("maven.modrinth:rpl:${rpl_version}") { transitive = false }
     runtimeOnly("curse.maven:createaddition-439890:8083378")
 

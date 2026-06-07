@@ -5,7 +5,7 @@ import net.hellomouse.createrailgun.registry.CREntities;
 import net.minecraft.core.Position;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.level.Explosion.BlockInteraction;
+import net.minecraft.world.level.Explosion;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 import rbasamoyai.createbigcannons.CreateBigCannons;
@@ -18,8 +18,10 @@ public class BurstShellProjectile extends HEShellProjectile {
     }
 
     protected void detonate(Position position) {
-        ShellExplosion explosion = new ShellExplosion(this.level(), this, this.indirectArtilleryFire(false), position.x(), position.y(), position.z(), this.getAllProperties().explosion().explosivePower(),
-                false, BlockInteraction.DESTROY, false);
+        ShellExplosion explosion = new ShellExplosion(this.level(), this, this.indirectArtilleryFire(false), position.x(), position.y(), position.z(),
+                this.getAllProperties().explosion().blockDamagePower(),
+                this.getAllProperties().explosion().entityDamagePower(),
+                false, Explosion.BlockInteraction.DESTROY);
         CreateBigCannons.handleCustomExplosion(this.level(), explosion);
 
         var level = this.level();

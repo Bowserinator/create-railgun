@@ -5,7 +5,6 @@ import net.hellomouse.createrailgun.registry.*;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -55,7 +54,8 @@ public class CreateRailgun {
 
         modEventBus.addListener(this::onCommonSetup);
         modEventBus.addListener(this::registerCapabilities);
-        modContainer.registerConfig(ModConfig.Type.SERVER, Config.SPEC);
+        modContainer.registerConfig(ModConfig.Type.SERVER, Config.SPEC_SERVER);
+        modContainer.registerConfig(ModConfig.Type.CLIENT, Config.SPEC_CLIENT);
     }
 
     private void onCommonSetup(FMLCommonSetupEvent event) {

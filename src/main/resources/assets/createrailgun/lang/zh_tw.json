@@ -39,6 +39,9 @@
     "createrailgun.configuration.powerBufferRequired": "發射所需能量",
     "createrailgun.configuration.cooldownTicks": "冷卻時間（刻）",
     "createrailgun.configuration.chargeTimeTicks": "發射前充能時間（刻）",
+    "createrailgun.configuration.maxRails": "最大軌道數量",
+    "createrailgun.configuration.muzzleVelScale": "每條軌道的砲口速度（公尺/刻）倍率",
+    "createrailgun.configuration.trailOpacity": "軌跡輝光不透明度",
 
     "tooltip.createrailgun.muzzle_velocity": "槍口初速：",
     "tooltip.createrailgun.ammo": "彈藥："

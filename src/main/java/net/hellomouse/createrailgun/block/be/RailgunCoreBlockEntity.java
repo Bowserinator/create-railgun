@@ -49,7 +49,6 @@ import java.util.Objects;
 
 public class RailgunCoreBlockEntity extends BlockEntity implements IHaveGoggleInformation {
     public static final int INVENTORY_SIZE = 1;
-    public static final int MAX_RAILS = 7;
 
     private int lastLightStage = 0;
     private int currentCooldown = 0;
@@ -121,7 +120,7 @@ public class RailgunCoreBlockEntity extends BlockEntity implements IHaveGoggleIn
 
         updateMultiblock();
         var pos = this.getBlockPos().getCenter();
-        if (cachedRailCount == 0 || cachedRailCount > MAX_RAILS) return;
+        if (cachedRailCount == 0 || cachedRailCount > Config.MAX_RAILS.getAsInt()) return;
 
         if (currentCooldown > 0) {
             level.playSound(null, pos.x, pos.y, pos.z, SoundEvents.LAVA_EXTINGUISH, SoundSource.BLOCKS, 1.0f, 1.0f);
@@ -142,7 +141,7 @@ public class RailgunCoreBlockEntity extends BlockEntity implements IHaveGoggleIn
     }
 
     public double getMuzzleVelocity() {
-        return 1.5 + cachedRailCount / (double) MAX_RAILS * 3;
+        return 1.5 + cachedRailCount / (double) Config.MAX_RAILS.getAsInt() * Config.VELOCITY_SCALE.getAsDouble();
     }
 
     private void rewardFireAdvancement() {
@@ -206,7 +205,7 @@ public class RailgunCoreBlockEntity extends BlockEntity implements IHaveGoggleIn
     public void updateMultiblock() {
         Direction facing = getBlockState().getValue(RailgunCoreBlock.FACING);
         int railsFound = 0;
-        for (int i = 1; i <= MAX_RAILS + 2; i++) { // +1 to disallow too many rails
+        for (int i = 1; i <= Config.MAX_RAILS.getAsInt() + 2; i++) { // +1 to disallow too many rails
             BlockPos checkPos = worldPosition.relative(facing, i);
             assert level != null;
             BlockState state = level.getBlockState(checkPos);
@@ -219,7 +218,7 @@ public class RailgunCoreBlockEntity extends BlockEntity implements IHaveGoggleIn
             cachedRailCount = railsFound;
             this.sendBlockUpdateThisTick = true;
             if (level instanceof ServerLevel serverLevel) {
-                if (cachedRailCount > 0 && cachedRailCount <= MAX_RAILS)
+                if (cachedRailCount > 0 && cachedRailCount <= Config.MAX_RAILS.getAsInt())
                     spawnParticlesAlongRail(serverLevel, ParticleTypes.HAPPY_VILLAGER, 8, 0.5, 0.5, 0.5, 0, 0.5, 0.5, 0.5);
                 else
                     spawnParticlesAlongRail(serverLevel, DustParticleOptions.REDSTONE, 8, 0.5, 0.5, 0.5, 0, 0.5, 0.5, 0.5);
@@ -287,11 +286,11 @@ public class RailgunCoreBlockEntity extends BlockEntity implements IHaveGoggleIn
     }
 
     public boolean addToGoggleTooltip(List<Component> tooltip, boolean isPlayerSneaking) {
-        if (cachedRailCount == 0 || cachedRailCount > MAX_RAILS) {
+        if (cachedRailCount == 0 || cachedRailCount > Config.MAX_RAILS.getAsInt()) {
             Lang.builder(CreateRailgun.MODID).add(Component.literal("Invalid Railgun ").withStyle(ChatFormatting.RED)).forGoggles(tooltip);
             if (cachedRailCount == 0)
                 Lang.builder(CreateRailgun.MODID).add(Component.literal("No railgun rails found").withStyle(ChatFormatting.GRAY)).forGoggles(tooltip);
-            else if (cachedRailCount > MAX_RAILS)
+            else if (cachedRailCount > Config.MAX_RAILS.getAsInt())
                 Lang.builder(CreateRailgun.MODID).add(Component.literal("Too many rails!").withStyle(ChatFormatting.GRAY)).forGoggles(tooltip);
             return true;
         }

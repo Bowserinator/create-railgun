@@ -3,7 +3,5 @@ cordium thrusters
 cordium power generators + engines
 
 make railgun a cannon mount too
-
-
 cordium blocks explode like regular tnt when falling
 - probably should be fixed by sable instead

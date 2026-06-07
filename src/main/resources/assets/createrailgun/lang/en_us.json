@@ -39,6 +39,9 @@
   "createrailgun.configuration.powerBufferRequired": "Power required to fire",
   "createrailgun.configuration.cooldownTicks": "Cooldown time (ticks)",
   "createrailgun.configuration.chargeTimeTicks": "Charge before firing (ticks)",
+  "createrailgun.configuration.maxRails": "Max rail count",
+  "createrailgun.configuration.muzzleVelScale": "Muzzle velocity (m/t) multiplier per rail",
+  "createrailgun.configuration.trailOpacity": "Trail glow opacity",
 
   "tooltip.createrailgun.muzzle_velocity": "Muzzle Velocity:",
   "tooltip.createrailgun.ammo": "Ammo:"
