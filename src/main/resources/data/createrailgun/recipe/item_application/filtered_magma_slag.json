@@ -12,5 +12,6 @@
         {
             "id": "createrailgun:filtered_magma_slag"
         }
-    ]
+    ],
+    "keep_held_item": true
 }
